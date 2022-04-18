@@ -15,7 +15,7 @@ CropDB::CropDB(){
 }
 
 CropDB:: ~CropDB(){
-    delete crops;
+    delete[] crops;
 }
 
 /**
