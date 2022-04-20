@@ -19,6 +19,8 @@ CropDB:: ~CropDB(){
     delete[] crops;
 }
 
+
+
 void CropDB::expand() {
    CropInfo *temp = new CropInfo[numCrops + 1];
    for (int i = 0; i < numCrops; i++) {
