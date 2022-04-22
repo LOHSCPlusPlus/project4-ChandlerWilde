@@ -15,9 +15,11 @@ class CropInfo{
         CropInfo(const CropInfo &other);
 
     private:
-        enum {MAX_NAME_LEN = 60,
-              NUM_YEARS = 19,
+        enum {NUM_YEARS = 19,
               START_YEAR = 2000};
+
+        
+
         double cropCode;
 
         char *name;
